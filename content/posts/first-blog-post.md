@@ -11,8 +11,7 @@ externalLink = ""
 series = []
 +++
 
-# Table of Contents
-1. [What is Hugo?](What%20is%20Hugo)
+{{< toc >}}
 ## What is Hugo
 
 I'll just [link](https://gohugo.io/) them for you and save you the trouble of having to read my own paraphrasing. I can't resist, however: it's essentially an open source service that helps you generate static websites. Documentation, blogs, portfolios, you name it. I was inspired by [Zoe's](https://zoriya.dev/) blog and wanted to create my own.
