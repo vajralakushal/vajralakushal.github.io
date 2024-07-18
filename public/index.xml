@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kushal Vajrala</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Kushal Vajrala</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jul 2024 22:48:20 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Blog Post</title>
+      <link>http://localhost:1313/posts/first-blog-post/</link>
+      <pubDate>Wed, 17 Jul 2024 22:48:20 -0500</pubDate>
+      <guid>http://localhost:1313/posts/first-blog-post/</guid>
+      <description>What is Hugo?&#xD;Link to heading&#xD;I&amp;rsquo;ll just link them for you and save you the trouble of having to read my own paraphrasing.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 17 Jul 2024 22:43:40 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hi! My name is Kushal Vajrala. I&amp;rsquo;m a recent grad of UT Austin with a specialization in Software Engineering. Currently, I work at Discover Financial Services as a Data Science Analyst. This website is a place for me to document my learning journey in all of my interests. Hope you enjoy!</description>
+    </item>
+  </channel>
+</rss>

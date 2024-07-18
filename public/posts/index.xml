@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kushal Vajrala</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Kushal Vajrala</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jul 2024 22:48:20 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Blog Post</title>
+      <link>http://localhost:1313/posts/first-blog-post/</link>
+      <pubDate>Wed, 17 Jul 2024 22:48:20 -0500</pubDate>
+      <guid>http://localhost:1313/posts/first-blog-post/</guid>
+      <description>What is Hugo?&#xD;Link to heading&#xD;I&amp;rsquo;ll just link them for you and save you the trouble of having to read my own paraphrasing.</description>
+    </item>
+  </channel>
+</rss>
