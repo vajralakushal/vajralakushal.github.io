@@ -58,7 +58,7 @@ style = "github-dark"
   name = "Twitter"
   icon = "fab fa-twitter fa-2x"
   weight = 2
-  url = "https://twitter.com/Malarkey10101"
+  url = "https://x.com/Malarkey10101"
 
 [[params.social]]
   name = "RSS"
