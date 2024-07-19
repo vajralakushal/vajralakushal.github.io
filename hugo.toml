@@ -55,6 +55,12 @@ style = "github-dark"
   url = "https://github.com/vajralakushal/"
 
 [[params.social]]
+  name = "Twitter"
+  icon = "fab fa-twitter fa-2x"
+  weight = 2
+  url = "https://twitter.com/Malarkey10101"
+
+[[params.social]]
   name = "RSS"
   icon = "fas fa-rss fa-2x"
   weight = 2
