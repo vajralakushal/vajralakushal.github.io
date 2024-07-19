@@ -33,7 +33,7 @@ Check to see if Hugo was installed correctly with ```hugo version```. At the tim
 
 Here comes the tricky part. To be fair, it was only tricky for me simply because I already had the makings of a barebones Next.js website, but I was tired of the learning curve. I'll definitely come back to it one day, but Hugo just provided an easier option.
 
-Create a repository on GitHub and name it "username.github.io". (Does the period go inside the parentheses or outside? It looks better inside but logically it feels better outside). Clone into this repo. Now, here's where the fun begins.
+Create a repository on GitHub and name it "username.github.io". (Does the period go inside the quotations or outside? It looks better inside but logically it feels better outside). Clone into this repo. Now, here's where the fun begins.
 
 Navigate into the repo you just cloned and run this line: 
 ``` Copy

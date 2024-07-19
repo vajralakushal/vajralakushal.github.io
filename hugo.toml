@@ -64,3 +64,8 @@ style = "github-dark"
   name = "About"
   weight = 2
   url  = "/about/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 3
+  url = "/tags/"
