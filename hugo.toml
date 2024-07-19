@@ -54,6 +54,12 @@ style = "github-dark"
   weight = 1
   url = "https://github.com/vajralakushal/"
 
+[[params.social]]
+  name = "RSS"
+  icon = "fas fa-rss fa-2x"
+  weight = 2
+  url = "/index.xml"
+
 # Menu links
 [[menu.main]]
   name = "Blog"
