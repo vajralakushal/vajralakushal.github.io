@@ -9,9 +9,10 @@ tags = ['SWE']
 categories = []
 externalLink = ""
 series = []
+enableComments = true
 +++
 or, a first timer's journey messing with static sites.
-{{< toc >}}
+
 ## What is Hugo?
 
 I'll just [link](https://gohugo.io/) them for you and save you the trouble of having to read my own paraphrasing. I can't resist, however: it's essentially an open source service that helps you generate static websites. Documentation, blogs, portfolios, you name it. I was inspired by [Zoe's](https://zoriya.dev/) blog and wanted to create my own.
@@ -24,7 +25,7 @@ This blog post is essentially a letter to my past self. If I had this blog post 
 Currently, I'm working out of my Windows PC, so I'll go over this part assuming you are doing the same. If not, refer to this [site](https://gohugo.io/installation/).
 - [ ] Ensure that [Chocolatey](https://chocolatey.org/), a windows package manager (similar to brew on MacOS or pacman on Arch. I do not use Arch btw). Same thing with [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
 - [ ] Funnily enough, same thing with [Powershell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
-- [ ] run this command, but in Powershell 7: ```choco install hugo-extended```
+- [ ] Run this command, but in Powershell 7: ```choco install hugo-extended```
 ## Site Creation
 
 Yay! Everything has been installed and is ready to go. I use VS code just because the files are not as numerous to where I would need to use neovim or anything, but use whatever you're comfortable with. Just make sure to use Powershell 7 as your shell here on out.
