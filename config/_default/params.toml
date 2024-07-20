@@ -13,7 +13,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 #why search not working??
-enableSearch = false
+enableSearch = true
 enableCodeCopy = true
 
 # mainSections = ["section1", "section2"]
