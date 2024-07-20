@@ -12,6 +12,7 @@ autoSwitchAppearance = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
+#why search not working??
 enableSearch = true
 enableCodeCopy = false
 
