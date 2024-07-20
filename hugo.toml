@@ -1,5 +1,6 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'The Esteemed Blog of his highness Kushal Vajrala'
+baseURL = "https://vajralakushal.github.io/"
+relativeURLs = true
 
 
