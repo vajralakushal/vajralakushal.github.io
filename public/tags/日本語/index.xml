@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SWE on Kushal Vajrala</title>
-    <link>http://localhost:1313/tags/swe/</link>
-    <description>Recent content in SWE on Kushal Vajrala</description>
+    <title>日本語 on Kushal Vajrala</title>
+    <link>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
+    <description>Recent content in 日本語 on Kushal Vajrala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kushal Vajrala</copyright>
-    <lastBuildDate>Wed, 24 Jul 2024 21:37:23 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/swe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 21:37:23 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kanji to Hiragana</title>
       <link>http://localhost:1313/posts/kanji-to-hiragana/kanji-to-hiragana/</link>
@@ -15,16 +15,6 @@
       
       <guid>http://localhost:1313/posts/kanji-to-hiragana/kanji-to-hiragana/</guid>
       <description>Item Summary #With this, the 日本語 learner can switch between Kanji and Hiragana seamlessly, allowing for an uninterrupted reading experience.</description>
-      
-    </item>
-    
-    <item>
-      <title>Pilot</title>
-      <link>http://localhost:1313/posts/first-blog-post/first-blog-post/</link>
-      <pubDate>Wed, 17 Jul 2024 22:48:20 -0500</pubDate>
-      
-      <guid>http://localhost:1313/posts/first-blog-post/first-blog-post/</guid>
-      <description>or, a first timer&amp;rsquo;s journey messing with static sites.</description>
       
     </item>
     

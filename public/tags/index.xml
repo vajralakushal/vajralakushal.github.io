@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kushal Vajrala</copyright>
-    <lastBuildDate>Wed, 24 Jul 2024 15:35:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 21:37:23 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SWE</title>
+      <link>http://localhost:1313/tags/swe/</link>
+      <pubDate>Wed, 24 Jul 2024 21:37:23 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/swe/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>日本語</title>
+      <link>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
+      <pubDate>Wed, 24 Jul 2024 21:37:23 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>AI/ML</title>
       <link>http://localhost:1313/tags/ai/ml/</link>
@@ -24,16 +44,6 @@
       <pubDate>Wed, 24 Jul 2024 15:35:01 -0500</pubDate>
       
       <guid>http://localhost:1313/tags/reinforcement-learning/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>SWE</title>
-      <link>http://localhost:1313/tags/swe/</link>
-      <pubDate>Wed, 17 Jul 2024 22:48:20 -0500</pubDate>
-      
-      <guid>http://localhost:1313/tags/swe/</guid>
       <description></description>
       
     </item>

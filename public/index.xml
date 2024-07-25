@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kushal Vajrala</copyright>
-    <lastBuildDate>Wed, 24 Jul 2024 15:35:01 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 21:37:23 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kanji to Hiragana</title>
+      <link>http://localhost:1313/posts/kanji-to-hiragana/kanji-to-hiragana/</link>
+      <pubDate>Wed, 24 Jul 2024 21:37:23 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/kanji-to-hiragana/kanji-to-hiragana/</guid>
+      <description>Item Summary #With this, the 日本語 learner can switch between Kanji and Hiragana seamlessly, allowing for an uninterrupted reading experience.</description>
+      
+    </item>
+    
     <item>
       <title>Cart Pole</title>
       <link>http://localhost:1313/posts/basic-rl/cart-pole/</link>
