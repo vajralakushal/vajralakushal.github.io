@@ -1,5 +1,5 @@
 +++
-title = "First Blog Post" 
+title = "Pilot" 
 draft = false
 date = 2024-07-17T22:48:20-05:00
 description = "or, a first timer's journey messing with static sites."

@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Pilot &middot; Kushal Vajrala</title>
-  <meta name="title" content="Pilot &middot; Kushal Vajrala" />
+  <title>Cart Pole &middot; Kushal Vajrala</title>
+  <meta name="title" content="Cart Pole &middot; Kushal Vajrala" />
   
-  <meta name="description" content="or, a first timer&#39;s journey messing with static sites." />
-  <meta name="keywords" content="SWE, " />
+  <meta name="description" content="or, a first timer&#39;s journey messing with reinforcement learning." />
+  <meta name="keywords" content="Reinforcement Learning, AI/ML, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/posts/first-blog-post/first-blog-post/" />
+  <link rel="canonical" href="http://localhost:1313/posts/basic-rl/cart-pole/" />
   
   
   
@@ -65,21 +65,22 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/posts/first-blog-post/first-blog-post/">
+  <meta property="og:url" content="http://localhost:1313/posts/basic-rl/cart-pole/">
   <meta property="og:site_name" content="Kushal Vajrala">
-  <meta property="og:title" content="Pilot">
-  <meta property="og:description" content="or, a first timer&#39;s journey messing with static sites.">
+  <meta property="og:title" content="Cart Pole">
+  <meta property="og:description" content="or, a first timer&#39;s journey messing with reinforcement learning.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-07-17T22:48:20-05:00">
-    <meta property="article:modified_time" content="2024-07-17T22:48:20-05:00">
-    <meta property="article:tag" content="SWE">
+    <meta property="article:published_time" content="2024-07-24T15:35:01-05:00">
+    <meta property="article:modified_time" content="2024-07-24T15:35:01-05:00">
+    <meta property="article:tag" content="Reinforcement Learning">
+    <meta property="article:tag" content="AI/ML">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Pilot">
-  <meta name="twitter:description" content="or, a first timer&#39;s journey messing with static sites.">
+  <meta name="twitter:title" content="Cart Pole">
+  <meta name="twitter:description" content="or, a first timer&#39;s journey messing with reinforcement learning.">
 
   
   <script type="application/ld+json">
@@ -87,26 +88,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Pilot",
-    "headline": "Pilot",
-    "description": "or, a first timer\u0027s journey messing with static sites.",
-    "abstract": "or, a first timer\u0026rsquo;s journey messing with static sites.",
+    "name": "Cart Pole",
+    "headline": "Cart Pole",
+    "description": "or, a first timer\u0027s journey messing with reinforcement learning.",
+    "abstract": "or, how my love for video games and AI\/ML brought me to an intersection of them with reinforcement learning.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/posts\/first-blog-post\/first-blog-post\/",
+    "url" : "http:\/\/localhost:1313\/posts\/basic-rl\/cart-pole\/",
     "author" : {
       "@type": "Person",
       "name": "Kushal Vajrala"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-07-17T22:48:20-05:00",
-    "datePublished": "2024-07-17T22:48:20-05:00",
+    "dateCreated": "2024-07-24T15:35:01-05:00",
+    "datePublished": "2024-07-24T15:35:01-05:00",
     
-    "dateModified": "2024-07-17T22:48:20-05:00",
+    "dateModified": "2024-07-24T15:35:01-05:00",
     
-    "keywords": ["SWE"],
+    "keywords": ["Reinforcement Learning","AI/ML"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "799"
+    "wordCount": "2226"
   }]
   </script>
 
@@ -130,6 +131,139 @@
   
 
 <script src="../../../lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="../../../lib/katex/katex.min.b6af89fb858eebf3a2f76dc5e96fec34b1ea60df75a463322f39a5e8386328f85a735a1393786ff33160aa709a25cb5d697b8b2fa554cf082d274e94655e0732.css" integrity="sha512-tq&#43;J&#43;4WO6/Oi923F6W/sNLHqYN91pGMyLzml6DhjKPhac1oTk3hv8zFgqnCaJctdaXuLL6VUzwgtJ06UZV4HMg==" />
+
+
+<script defer src="../../../lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
+
+
+<script defer src="../../../lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -395,7 +529,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Pilot
+      Cart Pole
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -440,7 +574,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-07-17 22:48:20 -0500 CDT">17 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>799 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  <time datetime="2024-07-24 15:35:01 -0500 CDT">24 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2226 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">11 mins</span>
   
 
   
@@ -464,10 +598,18 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/swe/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/reinforcement-learning/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SWE
+    Reinforcement Learning
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ai/ml/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    AI/ML
   </span>
 </span>
   </span>
@@ -609,12 +751,28 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#what-is-hugo">What is Hugo?</a></li>
-    <li><a href="#the-goal">The Goal</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#site-creation">Site Creation</a></li>
-    <li><a href="#showing-off-your-literary-masterpieces">Showing off your literary masterpieces</a></li>
-    <li><a href="#final-thoughts">Final Thoughts</a></li>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#definition">Definition</a></li>
+      </ul>
+    </li>
+    <li><a href="#q-learning">Q-Learning</a>
+      <ul>
+        <li><a href="#the-algo">The Algo</a></li>
+        <li><a href="#implementation-explanation">Implementation Explanation</a>
+          <ul>
+            <li><a href="#epsilon-greedy-strategy">\(\epsilon\) Greedy Strategy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#mess-wmy-code">Mess w/My Code!</a>
+      <ul>
+        <li><a href="#installationprereqs">Installation/Prereqs</a></li>
+      </ul>
+    </li>
+    <li><a href="#sources">Sources</a></li>
+    <li><a href="#thanks">Thanks!</a></li>
   </ul>
 </nav>
   </div>
@@ -628,12 +786,28 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#what-is-hugo">What is Hugo?</a></li>
-    <li><a href="#the-goal">The Goal</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#site-creation">Site Creation</a></li>
-    <li><a href="#showing-off-your-literary-masterpieces">Showing off your literary masterpieces</a></li>
-    <li><a href="#final-thoughts">Final Thoughts</a></li>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#definition">Definition</a></li>
+      </ul>
+    </li>
+    <li><a href="#q-learning">Q-Learning</a>
+      <ul>
+        <li><a href="#the-algo">The Algo</a></li>
+        <li><a href="#implementation-explanation">Implementation Explanation</a>
+          <ul>
+            <li><a href="#epsilon-greedy-strategy">\(\epsilon\) Greedy Strategy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#mess-wmy-code">Mess w/My Code!</a>
+      <ul>
+        <li><a href="#installationprereqs">Installation/Prereqs</a></li>
+      </ul>
+    </li>
+    <li><a href="#sources">Sources</a></li>
+    <li><a href="#thanks">Thanks!</a></li>
   </ul>
 </nav>
   </div>
@@ -717,140 +891,199 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>or, a first timer&rsquo;s journey messing with static sites.</p>
+          <p>
+
+or, how my love for video games and AI/ML brought me to an intersection of them with <em>reinforcement learning</em>.</p>
+<blockquote>
+<p>The information in this post is not intended to be a thorough mathematical primer on the topic. Rather, it is simply to showcase and explain a cool concept I&rsquo;ve learned and implemented myself, and to explain it to a layman. I will be discussing some math here and there, but I recommend the Reinforcement Learning book by Sutton and Barto if you&rsquo;re <strong>really</strong> looking to get your hands dirty.</p>
+</blockquote>
 
 
-<h2 class="relative group">What is Hugo? 
-    <div id="what-is-hugo" class="anchor"></div>
+<h2 class="relative group">Introduction 
+    <div id="introduction" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#what-is-hugo" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>I&rsquo;ll just <a href="https://gohugo.io/" target="_blank">link</a> them for you and save you the trouble of having to read my own paraphrasing. I can&rsquo;t resist, however: it&rsquo;s essentially an open source service that helps you generate static websites. Documentation, blogs, portfolios, you name it. I was inspired by <a href="https://zoriya.dev/" target="_blank">Zoe&rsquo;s</a> blog and wanted to create my own.</p>
+<p>A common prank my friends and I like to conduct is to bring people to a game of <a href="https://www.instructables.com/Mao-Card-Game/" target="_blank">Mao</a>. Essentially, the uninitiated are not allowed to know the rules of this card game. They must figure it out by watching other people, and they usually end up suffering in-game penalties frequently as a result.</p>
+<p>How would you approach this game (or, for the initiated, how did you first approach this game)? I bet that when starting the game, you would do a random move and see where that gets you. You would observe when you get penalized for something, and try to associate that pattern so that you try not to let it happen again. You might guess wrong, and then try a slightly tweaked version of your move to see if it happens again. Similarly with video games, I do the same thing: see what works, see what doesn&rsquo;t, and try to keep doing what works and what doesn&rsquo;t work. Lord knows how many times that I, someone who&rsquo;s never played DnD before, tried to adjust my <a href="https://baldursgate3.game/" target="_blank">Baldur&rsquo;s Gate 3</a> classes, actions, and story paths to get the most satisfying one across multiple playthroughs.</p>
 
 
-<h2 class="relative group">The Goal 
-    <div id="the-goal" class="anchor"></div>
+<h3 class="relative group">Definition 
+    <div id="definition" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#the-goal" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#definition" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-<p>This blog post is essentially a letter to my past self. If I had this blog post maybe a few hours earlier, I could&rsquo;ve saved myself a lot of headache.</p>
+</h3>
+<p>This, my friends, is the essence of <a href="https://en.wikipedia.org/wiki/Reinforcement_learning" target="_blank">reinforcement learning</a>: how an <em>agent</em> conducts <em>actions</em> in an <em>environment</em> to maximize its overall <em>reward</em>. We&rsquo;ll get into what these terms mean in a second.</p>
+<p>A very common image that gets utilized when describing RL is as follows:
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="../../../posts/basic-rl/img/rl-flow.png" alt="By Megajuice - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=57895741" />
+      
+    </figure>
+</p>
+<p>If you recognize what shape this takes, you are correct in assuming that this is a <a href="https://en.wikipedia.org/wiki/Markov_decision_process" target="_blank">Markov decision process</a>. If you don&rsquo;t, no worries.</p>
+<p>Let&rsquo;s break this picture down piece by piece. You have an agent (a model, a piece of code, etc.) that takes an action and interacts with its environment. Then, the agent is given two pieces of input from the interpreter (a fancy way of saying something that translates the outcomes of the action to the environment). The <em>state</em>, which you can think of a snapshot of the environment after the action, and the reward, which is an incentive to the model. For an RL algo trading stocks, the reward in simple terms could be its profits. For checkers, the number of pieces captured. In the case of Mao, the reward would be&hellip; well. Wouldn&rsquo;t you like to know? We then loop this process, and keep learning.</p>
+<p>Note: the results of the prior action does not impact the probability of choosing the current action. Just a bit of a disclaimer before we move forward.</p>
+<p>By this point, I&rsquo;m sure you&rsquo;ve been understanding everything I&rsquo;ve said; however, one question probably still remains. &ldquo;How?&rdquo; And that, my friends, is what the next section is for. We&rsquo;ll discuss an algorithm that I implemented!</p>
 
 
-<h2 class="relative group">Installation 
-    <div id="installation" class="anchor"></div>
+<h2 class="relative group">Q-Learning 
+    <div id="q-learning" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#installation" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#q-learning" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Currently, I&rsquo;m working out of my Windows PC, so I&rsquo;ll go over this part assuming you are doing the same. If not, refer to this <a href="https://gohugo.io/installation/" target="_blank">site</a>.</p>
+<p>Lots of people I know feel like this whenever they encounter/encountered a math test:
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="../../../posts/basic-rl/img/jojo-gun.gif" alt="LOL jojo gun" />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">The Algo 
+    <div id="the-algo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-algo" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Don&rsquo;t worry! I will do my best to walk you through the math. (If you weren&rsquo;t worrying at all, then that&rsquo;s good) Here&rsquo;s the equation for the algorithm we&rsquo;re going to cover today, Q-learning:</p>
+<p>$$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_a Q(S_{t+1}, a) - Q(S_t, A_t) \right]$$</p>
+<p>You see the \(Q(S_t, A_t)\). The \(Q\) is a function that we call a <em>Q table</em>. This is defined as follows:
+$$Q(s, a) = \mathbb{E}[R_t \mid S_t = s, A_t = a]$$</p>
+<p>where the inputs to the Q table are the state <em>s</em> and action <em>a</em> that the agent takes. The \(\mathbb{E}\) refers to the expected value, \(R_t\) refers to the total reward up to the timestep (basically, what point of time we are in) <em>t</em>, and \(S_t\) and \(A_t\) are the state and action at timestep <em>t</em>. What does this mean? Basically: the Q table is keeping track of the cumulative reward up to time <em>t</em> for every (state, action) pair. Think about it: it&rsquo;s basically what you do in a game you don&rsquo;t know, right? You try something (action) in a certain situation (state) and see what that does for you (reward/no reward/sometimes negative reward). The Q table is a convenient way of keeping track of this.</p>
+<p>Now, you&rsquo;ll probably have seen already that the original Q learning algorithm updates itself. That&rsquo;s cool, right? That&rsquo;s how this model learns. Now that you have an understanding of the Q table, let&rsquo;s go into the rest of the equation.</p>
+<p>As we already covered, \(Q(S_t, A_t)\) is basically the <em>current estimate</em> of the reward for the (state, action) pair at time <em>t</em>. What about the \(\left[R_{t+1} + \gamma \max_a Q(S_{t+1}, a) - Q(S_t, A_t) \right]\)? \(R_{t+1}\) is essentially the reward after the action was done at timestep <em>t</em>, and the \(\gamma\) is the discount factor (we will get into this in a bit). The \(\max_a Q(S_{t+1}, a)\) is giving us the maximum possible reward for the next state at timestep <em>t+1</em> after the corresponding action was done at time <em>t</em>; I know that was a mouthful, but basically, we&rsquo;re figuring out which action <em>a</em> at timestep <em>t</em> gives us the best reward for the next state, and we&rsquo;re rolling with that. The sum of these two terms is the target value. Our reward at this spot, plus the discounted future reward given that we take that action.</p>
+<p>If you&rsquo;ve taken a finance class before, you&rsquo;ve probably learned about the <a href="https://www.investopedia.com/terms/t/timevalueofmoney.asp" target="_blank">time value of money</a>. Essentially, $100 today is worth more than $100 next year. Why? The simple answer is opportunity cost. However, if you aren&rsquo;t satisfied with that answer, or desire a more technical proof/explanation, feel free to look for one. We apply this opportunity cost with \(\gamma\), our discount factor. We discount future rewards, since the present rewards are worth much more, hence the multiplication. As you can guess from the explanation, the discount factor is usually between 0 and 1, though closer to 1. We don&rsquo;t want to discount it TOO much.</p>
+<p>Subtracting the original \(Q(S_t, A_t)\) gives us something called the *<em>temporal difference</em> (TD) error. Basically, we&rsquo;re seeing how far away our current Q value in the table is to the <em>target value</em> (which is the sum of the reward and the discounted max possible future reward that we discussed earlier).</p>
+<p>We then multiply this whole thing by the \(\alpha\), the <em>learning rate</em>. We don&rsquo;t want to immediately swap out our Q table values to this one! We want to gradually make our way there, because we have no idea if what we&rsquo;ve learned is exactly true or not. Similar to our Mao example: you don&rsquo;t know if the reason you didn&rsquo;t get penalized is completely due to you guessing the right rule. You might have gotten lucky! So you remember it, and keep an eye out for it next time, adjusting your expectations accordingly. You&rsquo;ve by now deduced that the learning rate is a value between 0 and 1, but closer to 0, since you don&rsquo;t want to update your values too quickly.</p>
+<p>Now, for the final part. You adjust the \(Q(S_t, A_t)\) by adding what was in there previously with the learning rate times the TD error! This gives our Q value a little nudge in the right direction.</p>
+
+
+<h3 class="relative group">Implementation Explanation 
+    <div id="implementation-explanation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#implementation-explanation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>But &ldquo;wait!&rdquo;, you might say. How do we even start? Looking at the diagram earlier, it looked like a never ending loop. When do we start, and when do we stop? How do we make Q values in the first place? Let&rsquo;s get into that too.</p>
+<p>Let&rsquo;s answer the easier questions first.</p>
 <ul>
-<li><input disabled="" type="checkbox"> Ensure that <a href="https://chocolatey.org/" target="_blank">Chocolatey</a>, a windows package manager (similar to brew on MacOS or pacman on Arch. I do not use Arch btw). Same thing with <a href="https://learn.microsoft.com/en-us/windows/package-manager/winget/" target="_blank">Winget</a></li>
-<li><input disabled="" type="checkbox"> Funnily enough, same thing with <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4" target="_blank">Powershell 7</a></li>
-<li><input disabled="" type="checkbox"> Run this command, but in Powershell 7: <code>choco install hugo-extended</code></li>
+<li>When we start this, we initialize our current state to 0s (or nulls, depdending on how you would like to implement this), and we initialize our Q table to have all 0s as well.</li>
+<li>Starting and stopping involves two things: number of <em>episodes</em>, and the number of time steps per episode. What&rsquo;s happening here is that each episode is the number of times we let the agent explore the environment (or, more simply, play the game) and the number of time steps is essentially the total amount of time we give the agent per episode.</li>
 </ul>
+<p>Sure, that&rsquo;s all cool. But what happens if the Q table contains all zeroes? How do we even start populating it with values? That&rsquo;s a good question. We&rsquo;re going to get into something called an epsilon (\(\epsilon\)) greedy strategy.</p>
 
 
-<h2 class="relative group">Site Creation 
-    <div id="site-creation" class="anchor"></div>
+<h4 class="relative group">\(\epsilon\) Greedy Strategy 
+    <div id="epsilon-greedy-strategy" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#site-creation" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#epsilon-greedy-strategy" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Let&rsquo;s go back to the initial discussion of the game of Mao. When you start playing the game, you don&rsquo;t know anything except what your options are, which are to essentially put a card from your hand down. That&rsquo;s all you know. From there, you randomly experiment and try to see what works and what doesn&rsquo;t work. After you&rsquo;ve gotten a hang of the game, however, you don&rsquo;t want to keep doing random stuff: you want to go ahead and try to use what you know to <strong>win</strong>. This is known as <em>exploration/exploitation</em>.</p>
+<p>When our agent first starts interacting with the environment, let&rsquo;s give it some freedom to just randomly <em>explore</em> and try things and see what that gives it. However, as the agent gets a hang of things as it plays through a good number of episodes, we want it to <em>exploit</em> what it has learned in its Q table for the max possible reward.</p>
+<p>This can be done through any sort of setup. It&rsquo;s really up to you regarding how you wish to set this up, as long as it achieves the goal of decreasing your \(\epsilon\) (exploration/exploitation coefficient) over the episodes so the agent can first explore, then exploit. Here is my implementation:
+$$\epsilon \leftarrow \epsilon_{\text{min}} + (\epsilon_{\text{max}} - \epsilon_{\text{min}}) \cdot e^{(-d\cdot p)}$$</p>
+<p>Where <em>p</em> is the episode number, \(\epsilon\) and \(\epsilon_{\text{max}}\) start off initialized as 1, and \(\epsilon_{\text{min}}\) and <em>d</em> (\(\epsilon\) decay: the rate at which the \(\epsilon\) value decreases) are usually initialized to values that are between 0 and 1, but usually much closer to 0. You can probably intuit that as the episodes go on, the \(\epsilon\) value decreases. But how do we use this? Simple, really.</p>
+<p>Every time step, we pick a random number between 0 and 1. If this number is greater than \(\epsilon\), we just use whatever is in our Q table and make the decision from what we&rsquo;ve seen. However, if it&rsquo;s less than or equal to our \(\epsilon\) value, then we just randomly pick an action and roll with it, and see what that gives us.</p>
+<p>Once again, you&rsquo;ll be able to intuit that the first case probably happens later on in the episodes, while the second case happens towards the beginning of the episodes. We&rsquo;re done with the theory!</p>
+
+
+<h2 class="relative group">Mess w/My Code! 
+    <div id="mess-wmy-code" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#mess-wmy-code" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Yay! Everything has been installed and is ready to go. I use VS code just because the files are not as numerous to where I would need to use neovim or anything, but use whatever you&rsquo;re comfortable with. Just make sure to use Powershell 7 as your shell here on out.</p>
-<p>Check to see if Hugo was installed correctly with <code>hugo version</code>. At the time of this post, it should be around 0.129.0.</p>
-<p>Here comes the tricky part. To be fair, it was only tricky for me simply because I already had the makings of a barebones Next.js website, but I was tired of the learning curve. I&rsquo;ll definitely come back to it one day, but Hugo just provided an easier option.</p>
-<p>Create a repository on GitHub and name it &ldquo;username.github.io&rdquo;. (Does the period go inside the quotations or outside? It looks better inside but logically it feels better outside). Clone into this repo. Now, here&rsquo;s where the fun begins.</p>
-<p>Navigate into the repo you just cloned and run this line:</p>
-<pre tabindex="0"><code class="language-Copy" data-lang="Copy">hugo new site example.com
-</code></pre><p>Now, we&rsquo;ll do a bit of configuring here.</p>
-<pre tabindex="0"><code class="language-Copy" data-lang="Copy">mv \example.com\* .
-mv \example.com\.* # should be redundant, but eh why not
-rmdir \example.com\
-</code></pre><p>If you look at your directory now, it should look like this</p>
-<p>
+<p>You might not have a perfect grasp on the algorithm yet, especially if you haven&rsquo;t recently been studying or doing math. That&rsquo;s okay. Seeing it in code form will help you out there.</p>
+<p>We&rsquo;re going to be using <a href="https://gymnasium.farama.org/" target="_blank">Gymnasium</a> to help us set up. We&rsquo;re going to be using their <a href="https://gymnasium.farama.org/environments/classic_control/cart_pole/" target="_blank">Cart-Pole</a> game.
+
     <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="../../../posts/first-blog-post/images/hugo-new-site.png" alt="directory after Hugo new site" />
+      <img class="my-0 rounded-md" loading="lazy" src="../../../posts/basic-rl/img/cart_pole.gif" alt="https://gymnasium.farama.org/environments/classic_control/cart_pole/" />
       
     </figure>
 </p>
-<p>Great! Now, we can set up your hugo.toml as you wish. Add a title param in your hugo.toml file (anywhere inside works, as long as it&rsquo;s not part of a param):</p>
-<pre tabindex="0"><code class="language-Copy" data-lang="Copy">title = Kushal Vajrala
-</code></pre><p>Explore the different configs you can use. From here on out, it&rsquo;s just a matter of finding out your favorite <a href="https://themes.gohugo.io/" target="_blank">theme</a>: install and run for it!</p>
-<p>The <em>very</em> adventurous will probably stop reading here, and go tinker on their own now that things are set up somewhat. However, I&rsquo;m not totally sure that when I was working on this earlier. Let&rsquo;s use the theme that I&rsquo;m using for this tutorial, <a href="https://themes.gohugo.io/themes/hugo-coder/" target="_blank">hugo-coder</a>. I was able to set up my stuff pretty fast with this clean, minimalist theme.</p>
-<p>I would really rather not rewrite the download instructions they&rsquo;ve so kindly given, so make sure you read and implement carefully. I recommend installing it as a git submodule.</p>
+<p>What&rsquo;s happening here, and why did I choose this environment to do Q learning in?</p>
+<p>Cart-pole is a famous intro for those who are dipping their feet into due to its simplicity. Basically, you are given a cart with a pendulum on top of it. The cart rolls on a frictionless surface. The action space (what all can the agent possibly do here?) is simple: push the cart left, and push the cart right. The objective is simple: keep the pendulum up for as long as possible. It&rsquo;s considered a &ldquo;fail&rdquo; if the pendulum falls below a certain angle.</p>
+<p>Here&rsquo;s my GitHub <a href="https://github.com/vajralakushal/cart-pole/blob/main/cart-pole-q.py" target="_blank">repo</a> for my Q learning implementation of cart-pole. Read through the file, see if you can understand it and try to rewrite it yourself. I&rsquo;ve included some comments explaining stuff, as well as links to the documentation if you want to understand it more. Don&rsquo;t hesitate to leave a comment if there&rsquo;s anything you&rsquo;re confused about.</p>
 
 
-<h2 class="relative group">Showing off your literary masterpieces 
-    <div id="showing-off-your-literary-masterpieces" class="anchor"></div>
+<h3 class="relative group">Installation/Prereqs 
+    <div id="installationprereqs" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#showing-off-your-literary-masterpieces" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#installationprereqs" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-<p>Now, here&rsquo;s where the fun (really, the writing) begins!</p>
-<p>Assuming that you followed their example config setup, let&rsquo;s go into making posts! Your content directory should have a posts directory within it. If it doesn&rsquo;t, go create that.</p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="../../../posts/first-blog-post/images/yare-yare.gif" alt="me disappointed that it doesn&amp;rsquo;t" />
-      
-    </figure>
-</p>
-<p>Ensure that in your hugo.toml file, you have this:</p>
-<pre tabindex="0"><code class="language-Copy" data-lang="Copy">[[menu.main]]
-  name = &#34;Blog&#34;
-  weight = 1
-  url  = &#34;posts/&#34;
-[[menu.main]]
-  name = &#34;About&#34;
-  weight = 2
-  url  = &#34;/about/&#34;
-</code></pre><p>I changed mine around a bit, because I just wanted one singular about page. For now, run the following lines:</p>
-<pre tabindex="0"><code class="language-Copy" data-lang="Copy">hugo new \content\posts\hello-world.md
-hugo new \content\about.md
-</code></pre><p>You&rsquo;ll see that the files already come populated with some stuff in between some +++. These are essentially metadata that the theme utilizes to showcase and tag your posts. The prepopulated stuff can be found in the archetypes folder. Kudos to you if you explored a bit and found that out. It uses some regex to properly capitalize and figure out what to title your article. Fill the created files out to your desire.</p>
-<p>Now, run</p>
-<pre tabindex="0"><code class="language-Copy" data-lang="Copy">hugo server
-</code></pre><p>and navigate to the localhost link that it gives you! Ta-da! Your website it almost done! If you want to deploy it with GitHub pages like I have, go through the following steps:</p>
-<ol>
-<li>Push all of your changes and note which branch you used</li>
-<li><code>hugo version</code> to see which version of hugo was installed</li>
-<li>Follow the instructions <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank">here</a></li>
-<li>Navigate to your website, and there you go! It&rsquo;s all done.</li>
-</ol>
+</h3>
+<p>Last blog post was Hugo. This one is Python. Ensure that you have Python and pip installed, and then run the following commands. Note, this is assuming that you&rsquo;re not using conda.</p>
+<pre tabindex="0"><code>pip install gymnasium
+pip install numpy
+pip install matplotlib
+git clone https://github.com/vajralakushal/cart-pole.git
+</code></pre><p>Now, cd into the directory of the cart-pole and run:</p>
+<pre tabindex="0"><code>python cart-pole-q.py
+</code></pre><p>I&rsquo;ve given you the option to select some paramters. Once you do, the model takes some time to train, and then a pyplot window should show up, plotting the average reward of the agent across every thousand episodes. Can you come up with a set of parameters where the cart-pole survives the longest (i.e. where the graph has the highest points).</p>
 
 
-<h2 class="relative group">Final Thoughts 
-    <div id="final-thoughts" class="anchor"></div>
+<h2 class="relative group">Sources 
+    <div id="sources" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#final-thoughts" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#sources" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>I hope this helped you out! If you have any questions, feel free to reach out to me!</p>
+<p>Huge shoutout to the videos in this <a href="https://www.youtube.com/watch?v=my207WNoeyA&amp;list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv&amp;index=2" target="_blank">playlist</a>. Heavily inspired me to write my own intro to this topic. Everything else is linked accordingly.</p>
+
+
+<h2 class="relative group">Thanks! 
+    <div id="thanks" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#thanks" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Thanks for reading! Feel free to leave any comments if you have any!</p>
 
         </div>
         
@@ -870,8 +1103,8 @@ hugo new \content\about.md
           
         
       <script>
-        var oid = "views_posts\\first-blog-post\\first-blog-post.md"
-        var oid_likes = "likes_posts\\first-blog-post\\first-blog-post.md"
+        var oid = "views_posts\\Basic-RL\\cart-pole.md"
+        var oid_likes = "likes_posts\\Basic-RL\\cart-pole.md"
       </script>
       
       
@@ -891,10 +1124,15 @@ hugo new \content\about.md
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="../../../posts/how-to-japanese/how-to-japanese/">
+            <a class="flex group mr-3" href="../../../posts/how-to-japanese/how-to-japanese/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -906,15 +1144,10 @@ hugo new \content\about.md
                   
                 </span>
               </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
