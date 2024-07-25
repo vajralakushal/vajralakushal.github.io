@@ -7,6 +7,6 @@ enableComments = false
 
 {{< katex >}}
 
-$$2+2=7.5$$
+$$2+2=9$$
 
-Hi! My name is Kushal Vajrala. I'm a recent grad of UT Austin with a specialization in Software Engineering. Currently, I work at Discover Financial Services as a Data Science Analyst. This website is a place for me to document my learning journey in all of my interests. Hope you enjoy!
+Hi! My name is Kushal Vajrala. I'm a recent grad of UT Austin with a specialization in Software Engineering. Currently, I work at as a Data Science Analyst. This website is a place for me to document my learning journey in all of my interests. Hope you enjoy!
