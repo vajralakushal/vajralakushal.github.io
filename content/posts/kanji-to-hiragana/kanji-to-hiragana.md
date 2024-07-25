@@ -1,8 +1,8 @@
 +++
 title = 'Kanji to Hiragana'
 date = 2024-07-24T21:37:23-05:00
-draft = true
-description = "or, a first timer's journey messing with reinforcement learning."
+draft = false
+description = "or, a first timer's journey messing with chrome extensions."
 slug = ""
 authors = ['Me']
 tags = ['SWE', '日本語']
@@ -13,6 +13,7 @@ enableComments = false
 +++
 
 ![logo](/posts/kanji-to-hiragana/img/icon128.png)
+or, a first timer's journey messing with chrome extensions.
 
 ## Item Summary
 With this, the 日本語 learner can switch between Kanji and Hiragana seamlessly, allowing for an uninterrupted reading experience.
