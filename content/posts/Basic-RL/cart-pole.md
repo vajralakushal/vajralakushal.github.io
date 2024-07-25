@@ -27,7 +27,7 @@ How would you approach this game (or, for the initiated, how did you first appro
 This, my friends, is the essence of [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning): how an *agent* conducts *actions* in an *environment* to maximize its overall *reward*. We'll get into what these terms mean in a second.
 
 A very common image that gets utilized when describing RL is as follows:
-![By Megajuice - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=57895741](/posts/basic-rl/img/rl-flow.png)
+![By Megajuice - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=57895741](/posts/basic-rl/img/RL-flow.png)
 
 If you recognize what shape this takes, you are correct in assuming that this is a [Markov decision process](https://en.wikipedia.org/wiki/Markov_decision_process). If you don't, no worries. 
 
