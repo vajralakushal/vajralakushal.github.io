@@ -20,7 +20,6 @@ headline = "SWE, AI/ML, Volleyball, (some) eSports, 日本語"
 io = "A little bit about me"
 links = [
   {github = "https://github.com/vajralakushal"},
-  {twitter = "https://x.com/Malarkey10101"},
   {rss = "https://vajralakushal.github.io/index.xml"}
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
