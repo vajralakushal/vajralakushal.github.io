@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/kanji-to-hiragana/kanji-to-hiragana/</loc>
-    <lastmod>2024-07-24T21:37:23-05:00</lastmod>
+    <loc>http://localhost:1313/posts/hiatus/hiatus/</loc>
+    <lastmod>2025-08-03T21:37:23-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-24T21:37:23-05:00</lastmod>
+    <lastmod>2025-08-03T21:37:23-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-03T21:37:23-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/kanji-to-hiragana/kanji-to-hiragana/</loc>
     <lastmod>2024-07-24T21:37:23-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -23,12 +29,6 @@
   <url>
     <loc>http://localhost:1313/posts/basic-rl/cart-pole/</loc>
     <lastmod>2024-07-24T15:35:01-05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/how-to-japanese/how-to-japanese/</loc>
-    <lastmod>2024-07-18T01:37:30-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
