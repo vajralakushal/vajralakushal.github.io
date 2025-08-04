@@ -2,7 +2,7 @@
 title = 'The Watcher'
 date = 2025-08-03T23:56:22-05:00
 draft = false
-description = "or, a dusting of my little corner of the internet, and what the future beholds."
+description = "or, a short story featuring a character you might not have been expecting."
 slug = ""
 authors = ['Me']
 tags = ['Short-Story']
